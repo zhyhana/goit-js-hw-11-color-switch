@@ -1,15 +1,6 @@
-const colors = [
-  '#FFFFFF',
-  '#2196F3',
-  '#4CAF50',
-  '#FF9800',
-  '#009688',
-  '#795548',
-];
-// import colors from '../data/colors';
+import colors from '../data/colors';
 
 const body = document.querySelector('body');
-console.log(body);
 const startBtn = document.querySelector('button[data-action="start"]');
 const stopBtn = document.querySelector('button[data-action="stop"]');
 
